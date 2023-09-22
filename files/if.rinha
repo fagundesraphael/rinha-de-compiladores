@@ -1,0 +1,4 @@
+x = 12
+if (x < 23) {
+  print("x is smaller than 23")
+}

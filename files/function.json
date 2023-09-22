@@ -1,0 +1,165 @@
+{
+  "name": "files/function.rinha",
+  "expression": {
+    "kind": "Let",
+    "name": {
+      "text": "c",
+      "location": {
+        "start": 4,
+        "end": 5,
+        "filename": "files/function.rinha"
+      }
+    },
+    "value": {
+      "kind": "Int",
+      "value": 3,
+      "location": {
+        "start": 8,
+        "end": 9,
+        "filename": "files/function.rinha"
+      }
+    },
+    "next": {
+      "kind": "Let",
+      "name": {
+        "text": "add",
+        "location": {
+          "start": 15,
+          "end": 18,
+          "filename": "files/function.rinha"
+        }
+      },
+      "value": {
+        "kind": "Function",
+        "parameters": [
+          {
+            "text": "a",
+            "location": {
+              "start": 25,
+              "end": 26,
+              "filename": "files/function.rinha"
+            }
+          },
+          {
+            "text": "b",
+            "location": {
+              "start": 28,
+              "end": 29,
+              "filename": "files/function.rinha"
+            }
+          }
+        ],
+        "value": {
+          "kind": "Binary",
+          "lhs": {
+            "kind": "Var",
+            "text": "a",
+            "location": {
+              "start": 36,
+              "end": 37,
+              "filename": "files/function.rinha"
+            }
+          },
+          "op": "Add",
+          "rhs": {
+            "kind": "Binary",
+            "lhs": {
+              "kind": "Var",
+              "text": "b",
+              "location": {
+                "start": 40,
+                "end": 41,
+                "filename": "files/function.rinha"
+              }
+            },
+            "op": "Add",
+            "rhs": {
+              "kind": "Var",
+              "text": "c",
+              "location": {
+                "start": 44,
+                "end": 45,
+                "filename": "files/function.rinha"
+              }
+            },
+            "location": {
+              "start": 40,
+              "end": 45,
+              "filename": "files/function.rinha"
+            }
+          },
+          "location": {
+            "start": 36,
+            "end": 45,
+            "filename": "files/function.rinha"
+          }
+        },
+        "location": {
+          "start": 21,
+          "end": 47,
+          "filename": "files/function.rinha"
+        }
+      },
+      "next": {
+        "kind": "Print",
+        "value": {
+          "kind": "Call",
+          "callee": {
+            "kind": "Var",
+            "text": "add",
+            "location": {
+              "start": 55,
+              "end": 58,
+              "filename": "files/function.rinha"
+            }
+          },
+          "arguments": [
+            {
+              "kind": "Int",
+              "value": 1,
+              "location": {
+                "start": 59,
+                "end": 60,
+                "filename": "files/function.rinha"
+              }
+            },
+            {
+              "kind": "Int",
+              "value": 2,
+              "location": {
+                "start": 62,
+                "end": 63,
+                "filename": "files/function.rinha"
+              }
+            }
+          ],
+          "location": {
+            "start": 55,
+            "end": 64,
+            "filename": "files/function.rinha"
+          }
+        },
+        "location": {
+          "start": 49,
+          "end": 65,
+          "filename": "files/function.rinha"
+        }
+      },
+      "location": {
+        "start": 11,
+        "end": 65,
+        "filename": "files/function.rinha"
+      }
+    },
+    "location": {
+      "start": 0,
+      "end": 65,
+      "filename": "files/function.rinha"
+    }
+  },
+  "location": {
+    "start": 0,
+    "end": 65,
+    "filename": "files/function.rinha"
+  }
+}
